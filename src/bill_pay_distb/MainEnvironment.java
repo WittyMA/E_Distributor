@@ -520,7 +520,7 @@ public class MainEnvironment extends javax.swing.JFrame {
 		if (len >= 2 && total_amount > 0) {
 
 			if (len > 20) {
-				JOptionPane.showMessageDialog(rootPane, "<html><font face='Calibri' size='12' color='red'>🤗 Sorry!\nThe total number of rooms cannot be more than 20!\nReqiured (2-20).");
+				JOptionPane.showMessageDialog(rootPane, "<html><font face='Calibri' size='12' color='red'>🤗 Sorry!\nThe total number of rooms cannot be more than 20!\nRequired (2-20).");
 			} else {
 				JOptionPane.showMessageDialog(rootPane, "<html><font face='Calibri' size='15' color='green'>😍 Successful! ❤");
 				isDataNotProffered = false;
